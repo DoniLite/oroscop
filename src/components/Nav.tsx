@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import logo from '/logo.jpg'
-import {Github} from 'lucide-react'
+import { GitHub } from '@mui/icons-material';
 import { useEffect } from "react";
 import Image from "next/image";
 
@@ -49,7 +49,7 @@ export function NavBar() {
                 </li>
                 <li className="link">
                   <a href="#">
-                    <Github />
+                    <GitHub />
                   </a>
                 </li>
               </ul>
